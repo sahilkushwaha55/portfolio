@@ -1,0 +1,30 @@
+:root{
+  --bg-color : #fff;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.background-svg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--bg-color);
+  z-index: -1;
+}
+
+#background-svg_tag{
+  width: 100%;
+  height: 100%;
+}
+
+.div-test{
+  width: 100%;
+  height: 100vh;
+}
