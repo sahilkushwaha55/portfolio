@@ -4,11 +4,16 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sahil Kushwaha</title>
 </head>
 
 <body>
+
+  <!--Website background-->
+
   <div class="background-svg">
     <svg id="background-svg_tag" viewBox="0 0 100 100">
       <defs>
@@ -23,12 +28,189 @@
       </path>
     </svg>
   </div>
-  <div class="div-test"></div>
-  <div class="div-test"></div>
-  <div class="div-test"></div>
-  <div class="div-test"></div>
 
+  <!--Nav bar-->
+
+  <div class="nav-bar">
+    <input type="checkbox" class="navigation_checkbox" id="navi-toggle">
+    <label for="navi-toggle" class="navigation_button">
+      <span class="nav-bar_icon">&nbsp;</span>
+    </label>
+    <ul class="nav-bar-menu">
+      <li class="nav-bar-menu_item"><a href="#home">Home</a></li>
+      <li class="nav-bar-menu_item"><a href="#about">About</a></li>
+      <li class="nav-bar-menu_item"><a href="#project">Project</a></li>
+      <li class="nav-bar-menu_item"><a href="#social">Social-links</a></li>
+    </ul>
+    <div class="nav-bar_button">
+      <a href="mailto:sahilkushwaha55@gmail.com" id = 'hire-me-button'>Hire me</a>
+      <i class="fa fa-moon-o dark-mode-toggle" aria-hidden="true"></i>
+    </div>
+  </div>
+
+
+  <!--------Home section-------->
+
+
+  <div id="home" class="home-section section">
+    <div class="home-section_name">
+      <p>Hello, my name is</p>
+      <h1>Sahil Kushwaha</h1>
+      <p>I am a ...</p>
+    </div>
+    <div class="home-section_profession">
+      <p>WebGL Developer</p>
+      <p>ThreeJS Developer</p>
+      <p>Full Stack Developer</p>
+      <p>HTML5 Game Developer</p>
+    </div>
+  </div>
+
+  <div class="image-div center">
+    <img src="sahil_kushwaha.png" alt="sahil's image">
+  </div>
+
+
+  <!--------About Section-------->
+
+
+  <div id="about" class="about section">
+    <div class="about_qualification">
+      <p><u>Qualification</u></p>
+      <p>Bachelor of Computer Applications</p>
+      <p>(2018)  🥇</p>
+      <br>
+      <p><u>Bootcamp</u></p>
+      <p>FunctionUp - Backend Developer</p>
+      <p>(2022)  🥇</p>
+    </div>
+    <div class="about_intro">
+      <p>Looking for my first developer job to kick start my journey  🚀</p>
+    </div>
+  </div>
   
+  <div class="about-skill center">
+    <h3>SKILLS</h3>
+    <P>HTML, CSS</P>
+    <P>JAVASCRIPT, NODE.JS</P>
+    <P>WEBGL, THREE.JS, PHASER.JS</P>
+    <P>MYSQL, MONGODB, REDIS, AWS S3</P>
+    <h3>LEARNING SKILL</h3>
+    <P>TYPESCRIPT, REACT.JS</P>
+  </div>
+
+
+  <!--------Project-section-------->
+
+
+  <div id="project" class="project-section section">
+    <div class="project-gallary center">
+      <h3 class="project_title">PROJECTS</h3>
+      <div class="project">
+        <a href="#">
+          <img src="./projects/Screenshot.png" alt="project1">
+          <h4>title</h4>
+        </a>
+      </div>
+      <div class="project">
+        <a href="#">
+          <img src="./projects/Screenshot.png" alt="project1">
+          <h4>title</h4>
+        </a>
+      </div>
+      <div class="project">
+        <a href="#">
+          <img src="./projects/Screenshot.png" alt="project1">
+          <h4>title</h4>
+        </a>
+      </div>
+      <div class="project">
+        <a href="#">
+          <img src="./projects/Screenshot.png" alt="project1">
+          <h4>title</h4>
+        </a>
+      </div>
+      <div class="project">
+        <a href="#">
+          <img src="./projects/Screenshot.png" alt="project1">
+          <h4>title</h4>
+        </a>
+      </div>
+      <div class="project">
+        <a href="#">
+          <img src="./projects/Screenshot.png" alt="project1">
+          <h4>title</h4>
+        </a>
+      </div>
+      <div class="project">
+        <a href="#">
+          <img src="./projects/Screenshot.png" alt="project1">
+          <h4>title</h4>
+        </a>
+      </div>
+      <div class="project">
+        <a href="#">
+          <img src="./projects/Screenshot.png" alt="project1">
+          <h4>title</h4>
+        </a>
+      </div>
+      <div class="project">
+        <a href="#">
+          <img src="./projects/Screenshot.png" alt="project1">
+          <h4>title</h4>
+        </a>
+      </div>
+      <div class="project">
+        <a href="#">
+          <img src="./projects/Screenshot.png" alt="project1">
+          <h4>title</h4>
+        </a>
+      </div>
+      <div class="project">
+        <a href="#">
+          <img src="./projects/Screenshot.png" alt="project1">
+          <h4>title</h4>
+        </a>
+      </div>
+      <div class="project">
+        <a href="#">
+          <img src="./projects/Screenshot.png" alt="project1">
+          <h4>title</h4>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-------Social-media section------->
+
+  <div id="social" class="social-section section">
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/sahil-kushwaha-8b4193222" target="_blank">
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+      </a>
+      <a href="https://github.com/sahilkushwaha55" target="_blank">
+        <i class="fa fa-github" aria-hidden="true"></i>
+      </a>
+      <a href="https://leetcode.com/sahilkushwaha55/" target="_blank">
+        <i class="fa fa-code" aria-hidden="true"></i>
+      </a>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/sahil.kushwaha.96930" target="_blank">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.instagram.com/sahil_kushwaha8545/" target="_blank">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </a>
+      <a href="" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+    </div>
+  </div>
+
+  <div class="social-message center">
+    <p>Check out my github account for more projects and code</p>
+    <a href="https://github.com/sahilkushwaha55" class="github-button">Github</a>
+  </div>
+
   
   <script type="module" src="/main.js"></script>
 </body>
