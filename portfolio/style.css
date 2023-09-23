@@ -82,12 +82,18 @@ body{
   left: 0;
   width: 100%;
   padding: 1rem;
-  background-color: transparent;
+  background-color: var(--bg-color);
   border-bottom: 2px solid rgba(135.609, 28.226, 226.611, 1);
   display: flex;
   justify-content: space-between;
   z-index: 20;
-  transition: all 0.2s;
+  transition: all ease 1s;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .nav-bar {
+    background-color: var(--bg-color);
+  }
 }
 
 .nav-bar-menu{
